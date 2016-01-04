@@ -4,7 +4,7 @@ An instrument that takes live visual input from camera to manipulate sound intui
 One of my favorite projects I've done.
 Programmed in Max/MSP with cnmat odot, makes uses of computer vision externals for jitter by Jean-Marc Pelletier. 
 The odot and cv.jit externals will be necessary for the patches to run. Also uses keyboard and mouse abstractions from music 158 
-at UC Berkeley, and an odot modification to the blobs in cv.jit patch by Rama Gottfried, included in this repo.
+at UC Berkeley, and an odot information-generating version of blobs from cv.jit by Rama Gottfried, included in this repo.
 
 Modal space began with my modal map, which mapped a grid of 17 different musical modes to different 
 areas of a computer screen. Performers can play live notes (with continuous pitch range) on the
