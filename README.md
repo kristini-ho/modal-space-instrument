@@ -3,7 +3,8 @@ An instrument that takes live visual input from camera to manipulate sound intui
 
 One of my favorite projects I've done.
 Programmed in Max/MSP with cnmat odot, makes uses of computer vision externals for jitter by Jean-Marc Pelletier. 
-Also uses keyboard and mouse abstractions from music 158 at UC Berkeley.
+The odot and cv.jit externals will be necessary for the patches to run. Also uses keyboard and mouse abstractions from music 158 
+at UC Berkeley, included in this repo.
 
 Modal space began with my modal map, which mapped a grid of 17 different musical modes to different 
 areas of a computer screen. Performers can play live notes (with continuous pitch range) on the
@@ -12,8 +13,10 @@ The "keys" of the instrument are simply the computer keyboard. Recording is also
 live over the recorded accompaniment in the same patch is a key feature. This is done by recording the 
 gestures that the musician makes, and entering them in real time as though they were being played, when 
 "Play" is clicked. Modulating based on the current state of the mouse. Information about both live and 
-recorded music is displayed. Damped and clear sound are adjustable. Everything is continuous, from pitch
-to ratios of blur and clarity. 
+recorded music is displayed. Damped and clear sound are adjustable, each uses a different method for
+creating the sound, one allows more blurred polyphonic sound using delegation of sound to another voice if
+the current voice is busy, the other is simply crisp, one note at a time sound. I think of the blur as something 
+akin to a piano pedal. Everything is continuous, from pitch to ratios of blur and clarity. 
 
 Modal space was my grand extension of the modal map. I wanted a person's movements, color, 
 proximity to the instrument to affect how it reacts. So I made use of cv.jit, and a blobs
