@@ -40,7 +40,7 @@ As a side note, one can record the music created or improvised on this instrumen
 Some musical notes:
 
 Some of my favorite modes to create were the Balinese ones,
-intervals for which I deduced partially from listening and experience from playing the gamelan,
+intervals for which I deduced partially from listening and experience from playing/hearing gamelan music,
 and partially from comparison to Western typical intervals. Notably, these required a different 
 programming than the rest, as in Balinese music, there is an everpresent ambak or wave texture,
 which is created by having two frequencies very close together struck at the same time by two different
